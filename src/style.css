@@ -18,8 +18,9 @@ body {
 
   .navbar
   {
-    background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(192,199,200,1) 0%, rgba(0,0,0,1) 0%, rgba(17,17,17,1) 100%, rgba(180,181,181,1) 100%);
+   background: rgb(57,125,188);
+   
+
   }
   .nav-link
   {
@@ -34,15 +35,17 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(192,199,200,1) 0
      padding: 8px 1px 20px 1px;
      font-family: "Monsteratt";
      font-weight: bolder;
-     font-size: 100px;
+     font-size: 200px;
      color: white;
      margin-right: 150px;  
  } 
   
   #title{
-    background-image: url("artwork-road-minimalism-monochrome-wallpaper-preview.jpg");
-    background-size: 100% 100%;
+    background-image: url("Minimal-Wallpaper-HD-for-Phone-020-300x585.jpg");
+   background-size: 100% 100%;
     opacity: 1;
+    padding: 5%;
+    
 
   }
   .big-heading{
@@ -55,12 +58,22 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(192,199,200,1) 0
     font-weight: bolder;
 
   }
-  .container-fluid {
-     padding: 16% 10%;
-  }
+  
 
   @media (max-width: 1028px) {
-
+    #title{
+      background-image: url("Minimal-Wallpaper-HD-for-Phone-020-300x585.jpg");
+     background-size: cover;
+      opacity: 1;
+      padding: 5%;
+    }
+    .outerbox{
+ 
+      padding: 5%;
+      text-align: center;
+      background-image: url("v1LWEuQ.png");
+      background-size: cover;
+    }
    
     .container-fluid {
       padding: 20% 10%;
@@ -68,13 +81,13 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(192,199,200,1) 0
   
     .brand-txt
     {
-      padding: 1px 1px 200px 1px;
+      
       font-family: "Monsteratt";
       font-weight: bolder;
-      font-size: 40px;
+      font-size: 80px;
       color: white;
       margin-right: auto;
-      margin-bottom: 150px;
+      
        
     } 
     .logo {
@@ -96,11 +109,13 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(192,199,200,1) 0
 } */
 
 .outerbox{
-  background-color: black;
+ 
   padding: 5%;
   text-align: center;
+  background-image: url("v1LWEuQ.png");
+  background-size: cover;
 }
-.btn{
+.funcs{
   
   margin: 120px;
   display: inline-block;
@@ -111,4 +126,20 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(192,199,200,1) 0
 .card{
   margin: 13px;
 }
+.checked {
+  color: orange;
+}
+.about{
+ 
+  color: white;
+  text-align: center;
+  margin-top:20px ;
+  margin-bottom:250px ;
+  font-size: 20px;
 
+}
+.form-section{
+  background-image: url("vector-business-finance-businessman-confused_49683-166.jpg");
+  opacity: .8;
+ 
+}
